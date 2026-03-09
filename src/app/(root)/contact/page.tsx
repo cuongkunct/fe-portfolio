@@ -78,7 +78,7 @@ export default function ContactPage() {
                                 <div>
                                     <p className="text-sm font-medium text-muted-foreground">Location</p>
                                     <p className="font-semibold">
-                                        {siteConfig.contact.location}
+                                        {siteConfig.contact.address}
                                     </p>
                                 </div>
                             </div>

@@ -33,10 +33,15 @@ function ParticlesTriangles() {
                },
                links: {
                   color: "#f59393",
-                  distance: 200,
+                  distance: 250,
                   enable: true,
                   opacity: 0.3,
                   width: 1,
+                  triangles: {
+                     enable: true,        // Bật mảng tam giác
+                     color: "#f59393",    // Màu của mảng tam giác (nên cùng màu với links)
+                     opacity: 0.2,        // Độ đậm nhạt của mảng màu (0.1 đến 0.3 là đẹp)
+                  },
                },
                collisions: {
                   enable: true,
@@ -56,7 +61,7 @@ function ParticlesTriangles() {
                      enable: true,
                      area: 450,
                   },
-                  value: 20,
+                  value: 40,
                },
                opacity: {
                   value: 0.5,

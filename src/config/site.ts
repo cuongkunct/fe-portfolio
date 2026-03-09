@@ -8,6 +8,11 @@ export const siteConfig = {
         linkedin: "https://linkedin.com",
         facebook: "https://facebook.com",
     },
+    contact: {
+        email: "cuongkun.ct@gmail.com",
+        phone: "+84 986769815",
+        address: "Ho Chi Minh City, Vietnam",
+    }
 }
 
 export type SiteConfig = typeof siteConfig;
